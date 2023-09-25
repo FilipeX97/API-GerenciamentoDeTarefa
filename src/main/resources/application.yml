@@ -1,0 +1,10 @@
+spring:
+  main.allow-bean-definition-overriding: true
+
+# Dados da conexão MongoDB
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:1234@clustertestjava.n0s687g.mongodb.net/?retryWrites=true&w=majority
+      database: test_java
+      socket-timeout: 5000
+      
