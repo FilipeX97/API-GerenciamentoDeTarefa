@@ -6,5 +6,5 @@ spring:
     mongodb:
       uri: {uri}
       database: {database}
-      socket-timeout:0ll 5000
+      socket-timeout: 5000
       
