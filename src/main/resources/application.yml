@@ -4,7 +4,7 @@ spring:
 # Dados da conexão MongoDB
   data:
     mongodb:
-      uri: mongodb+srv://admin:1234@clustertestjava.n0s687g.mongodb.net/?retryWrites=true&w=majority
-      database: test_java
-      socket-timeout: 5000
+      uri: {uri}
+      database: {database}
+      socket-timeout:0ll 5000
       
